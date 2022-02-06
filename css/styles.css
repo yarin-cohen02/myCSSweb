@@ -22,8 +22,13 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #FEECE9;
+hr {
+  border-color: #9AD0EC;
+  border-style: dotted;
+  border-bottom: none;
+  border-width: 7px;
+  margin: 150px auto;
+  width: 10%;
 }
 
 .upper {
@@ -41,6 +46,7 @@ a:hover {
 
 .lower-cloud {
   position: absolute;
+  top: 70px;
   right: 300px;
 }
 
@@ -60,9 +66,99 @@ a:hover {
 }
 
 .middle {
-  background-color: #CCD1E4;
-  padding: 50px 200px 50px 200px;
+  /* CCD1E4 */
+  padding: 70px 300px;
   margin: 0;
+}
+
+.who-am-i {
+  text-align: center;
+}
+
+.profile {
+  margin: 10px 30px 0 0;
+  float: left;
+  width: 20%;
+}
+
+.about {
+  width: 50%;
+  margin: auto;
+}
+
+.about-desc {
+  padding-top: 20px;
+}
+
+.my-hobbies {
+  margin: auto;
+  width: 80%
+}
+
+.hobbies-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hobby-right {
+  clear: left;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  width: 10%;
+}
+
+.desc-right {
+  clear: left;
+  padding-top: 20px;
+}
+
+.hobby-left {
+  clear: right;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  width: 10%;
+}
+
+.desc-left {
+  clear: right;
+  padding-top: 20px;
+}
+
+.contact-area {
+  text-align: center;
+}
+
+.button-area {
+  margin: 30px auto 40px auto;
+}
+
+.btn {
+  background: #FE7E6D;
+  background-image: -webkit-linear-gradient(top, #FE7E6D, #2980b9);
+  background-image: -moz-linear-gradient(top, #FE7E6D, #2980b9);
+  background-image: -ms-linear-gradient(top, #FE7E6D, #2980b9);
+  background-image: -o-linear-gradient(top, #FE7E6D, #2980b9);
+  background-image: linear-gradient(to bottom, #FE7E6D, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #FE7E6D);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #FE7E6D);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #FE7E6D);
+  background-image: -o-linear-gradient(top, #3cb0fd, #FE7E6D);
+  background-image: linear-gradient(to bottom, #3cb0fd, #FE7E6D);
+  text-decoration: none;
 }
 
 .bottom {
